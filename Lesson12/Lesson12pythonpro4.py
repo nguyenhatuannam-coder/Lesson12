@@ -5,7 +5,7 @@ st.set_page_config(page_title='Vương quốc mô hình', page_icon=':sparkles:'
 with st.sidebar:
     st.title('Vương quốc mô hình')
     st.header('Chào mừng bạn đến Vương quốc mô hình!')
-    st.image('vuongquocdochoi.jfif')
+    st.image('vuongquocdochoi.png')
     st.write('Chúng tôi chuyên bán các mô hình nhân vật hoạt hình chất lượng. Luôn cập nhật và đa dạng sản phẩm. Cam kết sự hài lòng của khách hàng với dịch vụ chuyên nghiệp. Hãy đến và khám phá thế giới mô hình tại Vương quốc mô hình!')
     st.write(':house: Địa chỉ của hàng:')
     st.write(':phone: Điện thoại liên hệ')
@@ -24,31 +24,31 @@ if b1:
     st.header('Danh sách mô hình Dragon Ball')
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.image('goku.jfif', caption='Goku Ultra Instinct – Mã số: 001')
+        st.image('goku.png', caption='Goku Ultra Instinct – Mã số: 001')
     with col5:
-        st.image('vegeta.jfif', caption='Vegeta Super Saiyan – Mã số: 002')
+        st.image('vegeta.png', caption='Vegeta Super Saiyan – Mã số: 002')
     with col6:
-        st.image('picolo.jfif', caption='Picolo – Mã số: 003')
+        st.image('picolo.png', caption='Picolo – Mã số: 003')
 
 if b2:
     st.header('Danh sách mô hình Naruto')
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.image('naruto.jfif', caption='Uzumaki Naruto – Mã số: 001')
+        st.image('naruto.png', caption='Uzumaki Naruto – Mã số: 001')
     with col5:
-        st.image('sasuke.jfif', caption='Uchiha Sasuke – Mã số: 002')
+        st.image('sasuke.png', caption='Uchiha Sasuke – Mã số: 002')
     with col6:
-        st.image('hatake.jfif', caption='Hatake Kakashi – Mã số: 003')
+        st.image('hatake.png', caption='Hatake Kakashi – Mã số: 003')
 
 if b3:
     st.header('Danh sách mô hình One Piece')
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.image('luffy.jfif', caption='Monkey D. Luffy – Mã số: 001')
+        st.image('luffy.png', caption='Monkey D. Luffy – Mã số: 001')
     with col5:
-        st.image('zoro.jfif', caption='Roronoa Zoro – Mã số: 002')
+        st.image('zoro.png', caption='Roronoa Zoro – Mã số: 002')
     with col6:
-        st.image('sanji.jfif', caption='Vinsmoke Sanji – Mã số: 003')
+        st.image('sanji.png', caption='Vinsmoke Sanji – Mã số: 003')
 
 st.header('Đặt hàng')
 with st.form('Đơn đặt hàng'):
